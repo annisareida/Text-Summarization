@@ -6,7 +6,7 @@ st.set_page_config(page_title="Text Summarizer", layout="wide")
 # Load model dan tokenizer (jalankan sekali saat pertama load)
 @st.cache_resource
 def load_model():
-    model_path = "model"  #gantidengan path model kamu
+    model_path = "annisareida04/TextSummarizationBartBaseDialogsum"  #gantidengan path model kamu
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
     return tokenizer, model
