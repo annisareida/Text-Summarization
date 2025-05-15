@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-st.set_page_config(page_title="Text Summarizer", layout="wide")
+st.set_page_config(page_title="IntisariMi", layout="wide")
 
 # Load model dan tokenizer (jalankan sekali saat pertama load)
 @st.cache_resource
