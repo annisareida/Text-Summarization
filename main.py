@@ -82,7 +82,7 @@ st.markdown("""
 
 # Header
 st.markdown('<div class="title">📜 IntisariKu</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Aplikasi Ringkasan Teks Otomatis Berbasis NLP</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Aplikasi Ringkasan Teks Otomatis</div>', unsafe_allow_html=True)
 
 # Petunjuk
 with st.expander("📌 Cara Menggunakan"):
