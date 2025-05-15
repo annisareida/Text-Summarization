@@ -29,7 +29,7 @@ def summarize(text):
 # UI Streamlit
 
 
-st.title("📝 Text Summarization")
+st.title("📝 IntisariMi")
 
 with st.expander("📌 Instructions"):
     st.markdown("""
