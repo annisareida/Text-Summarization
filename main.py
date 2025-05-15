@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-st.set_page_config(page_title="IntisariMi", layout="wide")
+st.set_page_config(page_title="📜IntisariKu", layout="wide")
 
 # Load model dan tokenizer (jalankan sekali saat pertama load)
 @st.cache_resource
@@ -29,7 +29,7 @@ def summarize(text):
 # UI Streamlit
 
 
-st.title("🍜 IntisariMi")
+st.title("📜IntisariKu")
 
 with st.expander("📌 Instructions"):
     st.markdown("""
